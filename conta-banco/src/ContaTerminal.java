@@ -24,6 +24,8 @@ public class ContaTerminal {
         usuario.nomeCliente = scanner.nextLine();
         
         usuario.exibirUsuario();
+
+        scanner.close();
         
     }
 }
